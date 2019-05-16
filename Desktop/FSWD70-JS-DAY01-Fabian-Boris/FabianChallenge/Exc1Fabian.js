@@ -16,21 +16,24 @@ var substring5='properties $flow$down;$actions$flow$up".';
 var splittetdString = new  Array();
 splittedSubString1 = substring1.split("$").join(" ");
 // console.log(splittedSubString1);
-console.log(splittedSubString1.toString());
+// console.log(splittedSubString1.toString());
+
+
 splittedSubString2 = substring2.split("$").join(" ");
 console.log(splittedSubString2.toString());
 
 var splittetdString3 = new  Array();
 splittedSubString3 = subString3.split("$").join(" ");
-// console.log(splittedSubString1);
-console.log(splittedSubString3.toString());
+// console.log(splittedSubString1);<
 
 splittedSubString4 = substring4.split("$").join(" ");
-console.log(splittedSubString4.toString());
+// console.log(splittedSubString4.toString());
+
 splittedSubString5 = substring5.split("$").join(" ");
-console.log(splittedSubString5.toString());
+// console.log(splittedSubString5.toString());
 
 
+console.log(splittedSubString1.toString()+splittedSubString2.toString()+splittedSubString3.toString()+splittedSubString4.toString()+splittedSubString5.toString()) 
 
 
 
